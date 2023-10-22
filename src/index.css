@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-screen-xl mx-auto;
+}
+
+.bg-img {
+  background: linear-gradient(
+      to left top,
+      rgba(16, 16, 16, 0.471),
+      rgba(247, 234, 234, 0.374)
+    ),
+    url("https://as2.ftcdn.net/v2/jpg/05/16/96/01/1000_F_516960142_VWFzCCEaTzesoYF33L2esTyec3U14MbM.jpg");
+}
